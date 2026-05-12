@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Leads</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="loadLeads()">
+
+    <div class="container">
+
+        <h1>
+            Lead Management
+        </h1>
+
+        <hr>
+
+        <input
+            id="search"
+            placeholder="Search Company"
+        >
+
+        <button onclick="searchLead()">
+            Search
+        </button>
+
+        <br><br>
+
+        <table border="1" cellpadding="10">
+
+            <thead>
+
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Industry</th>
+                    <th>Region</th>
+                    <th>Deal Value</th>
+                    <th>Status</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="tableData">
+
+            </tbody>
+
+        </table>
+
+        <br>
+
+        <a href="index.html">
+            Back
+        </a>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+body {
+
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+
+    background-color: #1e1e1e;
+}
+
+input {
+
+    background-color: #333333;
+    color: white;
+}
+
+.card {
+
+    background-color: #2a2a2a;
+}
+
+table {
+
+    background-color: #1e1e1e;
+    color: white;
+}
+
+pre {
+
+    background-color: #333333;
+    color: white;
+}
